@@ -1,0 +1,9 @@
+### Создать нового пользователя
+    POST http://localhost:8080/api/users
+    Content-Type: application/json
+
+    {
+      "name": "Кирилл Иванов",
+      "email": "kirill@ivanov.ru",
+      "age": 48
+    }
